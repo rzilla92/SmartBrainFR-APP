@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Clarifai from 'clarifai';
 import { Navigation, ImageLinkForm, FaceRecog, Rank, Signin, Register } from './Components'
 import './App.css'
 import ParticlesBg from 'particles-bg'
