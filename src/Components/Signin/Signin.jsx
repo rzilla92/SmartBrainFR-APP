@@ -50,6 +50,9 @@ constructor(props) {
                         type="email"
                         name="email-address"
                         id="email-address"
+                        pattern=".+@globex\.com"
+                        size="30"
+                        required
                         onChange={this.onEmailChange}
                         />
                     </div>
@@ -60,6 +63,8 @@ constructor(props) {
                         type="password"
                         name="password"
                         id="password"
+                        minLength="6"
+                        required
                         onChange={this.onPasswordChange}
                         />
                     </div>
